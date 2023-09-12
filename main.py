@@ -21,4 +21,4 @@ async def balace(inter, user: disnake.User = None):
 async def add_balance(inter, user: disnake.User, money:int):
 	await add_money(user.id, money)
 	await inter.response.send_message(f"Пользователю <@!{user.id}> добавлено {money} монет")
-bot.run("OTg2MjE5NTY1NjAyMTkzNDY4.GsZDdB.t0eknrlM5iNyQf5KSeULsOd8DL8hjt1evTz1fI")
+bot.run("NoNo")
